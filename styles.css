@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@media print, screen and (min-width: 210mm) {
+    html,
+    body {
+        width: 210mm;
+        max-width: 210mm;
+        height: 297mm;
+        max-height: 297mm;
+        padding: 0;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        margin: 0;
+        padding: 0 30px;
+        margin-top: 10px;
+    }
+    p{
+        margin: 0;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .headerContainer {
+        text-align: center;
+        margin-top: 65px;
+        font-weight: 200;
+    }
+
+    #name {
+        font-weight: 100;
+        font-size: 55px;
+        margin: 0;
+        position: absolute;
+    }
+    .subheading {
+        margin: 0;
+        font-size: 15px;
+    }
+    .subheading2 {
+        margin: 0;
+        font-family: 'Red Hat Display', sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-style: normal;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: 400;
+    }
+
+    hr {
+        border: 0.1px solid grey;
+        width: 800px;
+        margin-top: 0;
+    }
+
+    /* =======================main section====================== */
+
+
+
+    .linkgrid{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .linkbox{
+        display: flex;
+        /* border: 1px solid ; */
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .linktitle{
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 17px;
+        margin: 0;
+        
+    }
+    .links{
+        font-weight: 200;
+        margin-bottom: 13px;
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .title {
+        font-family: 'Red Hat Display', sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        margin-bottom: 0;
+        color:#6c757d;
+        margin-top: 20px;
+    }
+    
+    
+    .subcontainer{
+        padding: 0 50px;
+    }
+
+    #summarycontent{
+        margin-top: 0;
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 200;
+        margin: 0 30px;
+    }
+
+
+    /* ====================EDUCATION=================== */
+
+    .educationboxs{
+        margin-top: 10px;
+    }
+    .course{
+        font-family: 'Red Hat Display', sans-serif;
+    }
+
+    .schoolname{
+        display: flex;
+        
+        justify-content: space-between;
+        font-weight: 200;
+        margin: 0 30px;
+    }
+
+
+    /* ===================SKILL====================== */
+    .skillgrid{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 200;
+        margin: 0 30px;
+    }
+    .skillname{
+        margin-bottom: 5px;
+    }
+}
